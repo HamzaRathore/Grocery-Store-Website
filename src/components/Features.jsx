@@ -34,12 +34,12 @@ const Features = () => {
       ];
   
   return (
-    <div className='pb-20 w-full'>
+    <div className='pb-20 w-full '>
       <div className='flex justify-center'>
         <h1 className='text-5xl font-bold pt-12 ' data-aos="fade-up"
                 data-aos-delay="200">Features</h1>
       </div>
-     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 pt-14" data-aos="fade-up"
+     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 pt-14 mr-3" data-aos="fade-up"
                 data-aos-delay="200">
           {features.map((feature, index) => (
             <div key={index} className="flex items-center p-6 bg-gray-50 rounded-lg hover:shadow-lg transition-shadow duration-300">
